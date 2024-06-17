@@ -22,14 +22,17 @@ The admin portal is free-standing as well, and can be utilized without the mobil
 In order to use, and eventually deploy, the admin portal, you'll (typically) need to have either an IT person/unit that you can rely on to hand this off to for the final hosting, or have access to/on your system: 
 
 - Node
-    * the app was written originally with v16, but newer versions can work as well
+    * the app was written originally with v16, but newer versions may work as well
     * v16 works best for CI builds and expectations currently
 - Yarn installed globally
     * you can stick with plain NPM as well but... yarn makes things prettier - and faster!
-- access to a MySQL 5.8 database with username and password
-    * 5.8 is used currently due to some query limitations and how the data is stored in JSON structures
+- access to a MySQL 5.7 database with username and password
+    * 5.7 is used currently due to some query limitations and how the data is stored in JSON structures
     * ensures the widest reach for environments that can't afford to redesign their infrastructure, already are running a database setup, and can't (or don't want to) run alternatives such as MariaDB.
+    * 8.0 also works (at least on Windows)
     * **on the roadmap**: rewriting the few manual queries that exist to use the framework, which will allow a broader range of database options; testing with postgres and mariadb will follow
+- ffmpeg installed
+    * note the paths to ffmpeg and ffprobe, as these are both necessary for the backend to function
 - Google Cloud Platform (GCP) access
     * the API relies on GCP for two pieces:
         + Cloud Storage API: temporary storage of the audio file for transcription
@@ -166,7 +169,7 @@ Assuming you're running this locally on your computer, and have configured `.env
 
 - Open a new terminal window and change directory to where you cloned the backend repo, and just configured the `.env` for your setup
 - run `yarn install` and wait while it fetches and installs all the dependencies needed
-- once completed, run `sequelize db:migrate` to initialize the database with all the migrations
+- once completed, run `yarn sequelize db:migrate` to initialize the database with all the migrations
     * this step sets up all the tables, configures some starting defaults, and preps everyting for you
     * while the migrations run, it'll output what it's doing and what step it is on, including outputting the default Username and Password for logging in the first time
 - once migrations are completed successfully, you can run `yarn dev` to start the backend
