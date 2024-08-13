@@ -28,6 +28,12 @@ The following links are not part of this repository but contain files or informa
 * The MiDRF Admin Portal frontend repository: https://github.com/midiaries/admin-frontend
 * The MiDRF Admin Portal backend repository: https://github.com/midiaries/admin-backend
 
+## Contacting us
+
+If you encounter a bug or some other issue that isn’t addressed in the Wiki pages for MiDRF, check the Issues page of this GitHub repository to see if someone else has reported the issue. If the issue you are having has not been reported, please let us know by submitting a new issue! Using the Issues page of this GitHub repository is the best way to help us see your report and respond to it in a timely fashion.
+
+You can also contact us at [mi.diaries@msu.edu](mailto:mi.diaries@msu.edu) to report issues or ask questions. Please include the phrase “MiDRF Support” along with a short description of your issue or question in the subject line of your email to ensure that it is seen and responded to in a timely fashion.
+
 ## Citation information
 
 We're still figuring it out! Check back soon.
