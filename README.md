@@ -27,3 +27,7 @@ The following links are not part of this repository but contain files or informa
 * The MiDRF App-Builder website: https://builder.mi-diaries.org/
 * The MiDRF Admin Portal frontend repository: https://github.com/midiaries/admin-frontend
 * The MiDRF Admin Portal backend repository: https://github.com/midiaries/admin-backend
+
+## Citation information
+
+We're still figuring it out! Check back soon.
