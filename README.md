@@ -36,4 +36,4 @@ You can also contact us at [mi.diaries@msu.edu](mailto:mi.diaries@msu.edu) to re
 
 ## Citing MiDRF and its components
 
-For up to date citation information, check out the [citing MiDRF](https://github.com/midiaries/datahub/wiki/home/##Citing-MiDRF-and-its-components) section of the wiki.
+For up to date citation information, check out the [citing MiDRF](https://github.com/midiaries/datahub/wiki/Home/##Citing-MiDRF-and-its-components) section of the wiki.
