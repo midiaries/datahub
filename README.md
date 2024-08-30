@@ -34,6 +34,17 @@ If you encounter a bug or some other issue that isn’t addressed in the Wiki pa
 
 You can also contact us at [mi.diaries@msu.edu](mailto:mi.diaries@msu.edu) to report issues or ask questions. Please include the phrase “MiDRF Support” along with a short description of your issue or question in the subject line of your email to ensure that it is seen and responded to in a timely fashion.
 
-## Citation information
+## Citing MiDRF and its components
 
-We're still figuring it out! Check back soon.
+MiDRF was designed and implemented by [Betsy Sneller](https://betsysneller.github.io/) and Russ Werner, with support from the National Science Foundation grant [#BCS-2119975](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2119975&HistoricalAwards=false) and the National Endowment for the Humanities Digital Humanities Advancement grant [#HAA-284835-22](https://apps.neh.gov/publicquery/AwardDetail.aspx?gn=HAA-284835-22), with support from the named contributors in the bibliographic entries.
+
+Please cite us if you use MiDRF in research publications.
+
+### Suggested in-text citation for MiDRF components:
+* MiDRF App Builder (Sneller et al., 2023) 
+* MiDRF Admin Portal (Sneller et al., 2024)
+* MiDRF App Builder (Sneller et al., 2023) and Admin Portal (Sneller et al., 2024)
+
+### Bibliographic entries:
+* Sneller, Betsy, Russ Werner, Hemkesh Agrawal, Daniel Magaway, Tess Coleman, Shiyu Yan, Albert Crooks. 2023. MiDRF App Builder. [doi]
+* Sneller, Betsy, Russ Werner, Jack Rechsteiner, and Connor Bechler. 2024. MiDRF Admin Portal. [doi]
